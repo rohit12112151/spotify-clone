@@ -1,0 +1,58 @@
+.Songrow-2 > div{
+    padding-left: 40px;
+}
+.Songrow-2 > img{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+
+.Songrow-2 , .songrow-header{
+    display: flex;
+    row-gap: 10px;
+    padding: 10px;
+    padding-left: 0;
+    align-items: center;
+}
+.songrow-header{
+    padding-left: 30px;
+    position:sticky;
+    top: -3.5%;
+    margin-left: -30px;
+    margin-right: -30px;
+    background-color: rgb(16, 16, 16);
+    border-bottom: 0.5px solid white;
+    /* margin-left: -30px; */
+}
+.Songrow-2:hover{
+    background-color: #282828;
+    border-radius: 5px;
+}
+
+.icon-2{
+    flex: 0.1;
+}
+.img-2{
+    flex: 0.1;
+}
+.title-2{
+    flex: 0.3;
+    cursor: pointer;
+}
+.alubum-2{
+    flex: 0.1;
+}
+.date-2{
+    flex: 0.175;
+}
+.time-2{
+    flex: 0.175;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.fav-2{
+    flex: 0.05;
+}
+
+

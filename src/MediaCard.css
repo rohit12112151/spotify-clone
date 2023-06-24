@@ -1,0 +1,19 @@
+.card{
+    height: 270px;
+    width: 180px;
+    min-width: 180px;
+    padding: 10px;
+    background-color: #1d1c1c;
+    border-radius: 2px;
+}
+.card:hover{
+    background-color: #2b2929;
+    scale: 1.1;
+    box-shadow: 3px salmon;
+}
+.card > img{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(202, 202, 9);
+    object-fit:cover;
+}

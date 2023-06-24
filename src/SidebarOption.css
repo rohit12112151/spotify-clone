@@ -1,0 +1,28 @@
+.sidebaroption{
+    color: gray;
+    min-height: 30px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    display: flex;
+    align-items: center;
+}
+.sidebaroption:hover{
+    color: white;
+}
+.icon{
+    padding-right: 10px;
+}
+
+.ig{
+    height: 50px;
+    width: 50px;
+    object-fit:cover;
+    /* margin-bottom: 100px; */
+    padding: 5px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+.toggle{
+    color: white;
+}

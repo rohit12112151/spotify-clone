@@ -1,0 +1,10 @@
+.player{
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   background-color: #000000;
+}
+.player_body{
+    display: flex;
+    /* height: 80%; */
+}

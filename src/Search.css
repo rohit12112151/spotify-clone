@@ -1,0 +1,119 @@
+.search{
+    height: 87vh;
+    width: 79vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    /* background-color: aquamarine; */
+    overflow-y: scroll;
+    color: aliceblue;
+    background: linear-gradient(rgb(55, 54, 62),rgba(0,0,0,1));
+}
+
+.Songrow{
+    width: 78vw;
+    cursor: pointer;
+}
+
+.search::-webkit-scrollbar{
+    display: none;
+}
+.search-header{
+    height: 10%;
+    width: 98%;
+    background-color: black;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 10px;
+    position:sticky;
+    top: 0;
+    column-gap: 10px;
+    align-items: center;
+    z-index: 1;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    border-radius: 99px;
+    /* background-color: aqua; */
+    height: 60%;
+    width: 25%;
+    padding-left: 5px;
+    column-gap: 3px;
+    border: 1px solid white;
+}
+
+input{
+    background-color: black;
+    height: 70%;
+    width: 80%;
+    border-radius: 99px;
+    align-items: center;
+    padding-left: 8px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    /* mix-blend-mode: multiply; */
+}
+
+.search-body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
+.search-card{
+    height: 200px;
+    width: 180px;
+    padding: 15px;
+    background-color: #282828;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.img{
+    height: 180px;
+    width: 90%;
+    object-fit: cover;
+    rotate: 30deg;
+    position: relative;
+    top: 20%;
+    left: 30%;
+}
+
+.category-card{
+    
+    /* height: 300px; */
+    width: 100%;
+    /* background-color: aqua; */
+    overflow-x: scroll;
+    display: flex;
+    padding: 5px;
+    column-gap: 10px;
+}
+.category-card::-webkit-scrollbar{
+    display: none;
+}
+.category-playlist-card{
+    height: 280px;
+    width: 230px;
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 5px;
+    /* overflow-x: hidden; */
+
+}
+.CP-img{
+    height: 150px;
+    width: 180px;
+    background-color: aquamarine;
+    object-fit:fill;
+    border-radius: 8px;
+}
